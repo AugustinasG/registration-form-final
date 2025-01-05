@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Registracija</title>
+</head>
+<body>
+    <form>
+<div class="registrationFormContainer" id="registrationFormContainerj">
+    <div class="registrationFormSmallerContainer">
+    <h1>Registracijos forma</h1>
+
+<h2>Prisijungimo vardas</h2>
+<input type="text" placeholder="Įveskite prisijungimo vardą" id="registrationName" class="registrationNameCss">
+<p class="registrationNameInfoCss" id="registrationNameInfo">Vardas turi būti sudarytas nuo  2  iki 30 raidžių. Galimas vardas tiktais  iš raidžių be skaičių ar simbolių</p>
+<p class="registrationNameErrorCss" id="registrationNameError"></p>
+<h2>Elektroninis paštas</h2>
+<input type="email" placeholder="Įveskite savo elektroninį paštą" id="registrationEmail">
+<p id="registrationEmailInfo"></p>
+<h2>Amžius</h2>
+<input type="number" placeholder="Įveskite savo amžių" class="registrationAgeCss" id="registrationAge">
+<p id="registrationAgeInfo"></p>
+<h2>Telefono numeris</h2>
+<input type="tel" placeholder="Įveskite savo telefono numerį" class="registrationPhoneCss" id="registrationPhone">
+<p id="registrationPhoneInfo"></p>
+<h2>Slaptažodis</h2>
+<div class="firstPw">
+<input type="password" placeholder="Įveskite savo slaptažodį" class="registrationFirstPasswordCss" id="registrationFirstPassword">
+<img src="./images/pwShow.svg" alt="passwordShow" class="pwShow" id="pwShow">
+</div>
+<p class="fpasswordInfoCss" id="registrationFirstPasswordInfo">Įveskite slaptažodį sudarytą nuo 8 iki  15 simbolių, bent viena didžioji raide,  mažoji raidė, vienas skaičius, ir specialus  simbolis</p>
+<p id="registrationFirstPasswordError"></p>
+<h2>Slaptažodžio pakartojimas</h2>
+<div class="secondPw">
+<input type="password" placeholder="Pakartokite savo slaptažodį" class="registrationSecondPasswordCss" id="registrationSecondPassword">
+<img src="./images/pwShow.svg" alt="passwordShow" class="pwShow" id="pwShow2">
+</div>
+<p id="registrationSecondPasswordInfo"></p>
+<button class="registrationBtnCss" id="registrationBtn">Registruotis</button>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+    </form>
+
+
+
+
+
+</body>
+</html>

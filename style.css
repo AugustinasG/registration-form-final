@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+    }
+    
+    .registrationFormContainer {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+    
+    
+    }
+    
+    .registrationFormSmallerContainer {
+    background: linear-gradient(to bottom, #f9f9f9, #e8e8e8);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+    border-radius:5px;
+    width:450px;
+    
+    
+    }
+    
+    .nameContainer {
+        display:flex;
+        gap:10px;
+    }
+    
+    .registrationNameInfoCss, .registrationNameErrorCss {
+    
+        opacity:0;
+    }
+
+
+    .firstPw {
+
+        display:flex;
+        gap:10px;
+    }
+
+    .pwShow {
+
+width:30px;
+cursor:pointer;
+
+    }
+
+    .secondPw {
+
+display:flex;
+gap:10px;
+
+
+    }
+
+   input {
+
+width:200px;
+border:none;
+border-radius:5px;
+
+   }
+
+
+   button {
+
+width:200px;
+border-radius:20px;
+padding:5px 10px;
+cursor:pointer;
+
+
+   }
+
+   p {
+font-size:13px;
+
+   }
+
+   h1 {
+
+    font-size:20px;
+   }
+
+   h2 {
+
+font-size:15px;
+
+   }
+
+  .fpasswordInfoCss {
+
+opacity:0;
+
+  }
