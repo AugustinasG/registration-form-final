@@ -18,6 +18,6 @@ Filters your registration form and lets you register.
 2. Open `index.html` in your browser.
 
 **Live Demo:**
-
+https://augustinasg.github.io/registration-form-final/
 
 
